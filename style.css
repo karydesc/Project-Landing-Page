@@ -2,6 +2,13 @@
     margin:0;
     padding: 0;
 }
+.header{
+    display:flex;
+    justify-content: center;
+    padding: 16px 0;
+    align-items: center;
+    gap:405px;
+}
 .header,
 .hero{
     background-color: #1F2937;
@@ -45,15 +52,47 @@ img{
     
 }
 
-.header{
-    display:flex;
-    justify-content: space-around;
-    padding: 16px 0;
-    align-items: center;
-}
+
 .hero{
     display: flex;
     justify-content: center;
     padding: 64px 0px;
     gap: 0px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+display: flex;
+justify-content: center;
+font-weight: bolder;
+font-size: 36px;
+margin: 65px 0px;
+
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+  
+
+}
+#iimg{
+    margin-left:0px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:#3882F6;
+    height:125px;
+    width: 125px;
+    
+}
+span p{
+    font-size: 18px;
+    max-width: 150px;
+    color: #1F2937;
+    
 }
