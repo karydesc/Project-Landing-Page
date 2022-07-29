@@ -7,7 +7,7 @@
     justify-content: center;
     padding: 16px 0;
     align-items: center;
-    gap:405px;
+    gap:475px;
 }
 .header,
 .hero{
@@ -95,4 +95,51 @@ span p{
     max-width: 150px;
     color: #1F2937;
     
+}
+p#quote{
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    font-weight:lighter;
+}
+.quote{
+    display:flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 120px 235px;
+    margin: 110px 0px;
+}
+
+
+.action{
+    background-color: #3882F6;
+    margin:120px 225px;
+    padding: 30px 0px;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+p#call-to{
+    font-weight: 800;
+    font-size: 20px;
+}
+button#action{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    padding:6px,16px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 24px 0;
 }
